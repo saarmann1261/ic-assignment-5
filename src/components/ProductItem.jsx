@@ -4,6 +4,7 @@ export default function ProductItem ({product,onSmash,isInCart}){
 
     const navigate = useNavigate()
 
+
     return (
         <div onClick={()=>navigate(`/product/${product.id}`)}
               key={product.id}
